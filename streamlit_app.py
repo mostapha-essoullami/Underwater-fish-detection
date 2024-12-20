@@ -64,7 +64,7 @@ def detect_image(placeholder):
         print('NEEEW TTTEST |||')
         print(result.stderr)
         print(result.stdout)    
-        detected_img = glob.glob("detection/output/**.jpg")[0]
+        detected_img = glob.glob("./detection/output/**.jpg")[0]
 
         placeholder.empty()
         img = Image.open(detected_img)
