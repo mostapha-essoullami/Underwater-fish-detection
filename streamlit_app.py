@@ -4,7 +4,7 @@ from PIL import Image
 import streamlit as st
 import subprocess
 from subprocess import call
-
+import cv2
 # # print(os.getcwd())
 # if 'app'
 # os.chdir('app')
