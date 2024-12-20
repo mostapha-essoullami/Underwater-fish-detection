@@ -57,9 +57,9 @@ def detect_image(placeholder):
     with st.spinner('Detecting 🐟 🐠 🦈 🐡...'):
         result = subprocess.run(["python", "/yolov7/detect.py", "--weights", "/weights/best.pt",
               "--conf-thres", "0.1", "--source", "source.jpg", "--no-trace" ,"--exist-ok", "--project", "detection", "--name", "output"])
-        # printed_output = result.stdout+result.stderr
-        # print(printed_output)
-        detected_img = glob.glob("/detection/output/**.jpg")[0]
+        printed_output = result.stdout+result.stderr
+        print(printed_output)
+        detected_img = glob.glob("./detection/output/**.jpg")[0]
 
         placeholder.empty()
         img = Image.open(detected_img)
