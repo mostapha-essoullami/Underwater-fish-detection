@@ -1,8 +1,10 @@
-# Underwater Fish Detection 🐟
+[streamlit-streamlit_app-2022-08-15-01-08-59.webm](https://user-images.githubusercontent.com/55437218/184553215-60cbbd01-5fea-4cad-9a60-0587e867d2cf.webm)
 
-As a part of [#project-of-the-week](https://github.com/DataTalksClub/project-of-the-week) initiative by [@DataTalksClub](https://github.com/DataTalksClub) I'll be building and deploying an underwater fish detector model while learning about **Yolo** object detector
 
-* [Introduction](./introduction)
-* [YoloV7](./YoloV7)
-* [Demo App](./app)
-* [Docker instructions](<./Docker App>)
+## To run the app :
+
+### Install the requirements 
+`$pip install -r requirements.txt`
+
+### Run streamlit app
+`$streamlit run streamlit_app.py`
